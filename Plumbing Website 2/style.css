@@ -1,0 +1,85 @@
+<style type="text/css">
+
+        body {
+            color: brown;
+            background-color: black; /* Blue background */
+            font-family: Georgia, "Times New Roman", serif;
+            text-align: center;
+        }
+
+        .wrapper {
+            width: 720px;
+            margin: 0 auto;
+        }
+
+        .header {
+            margin: 40px 0 20px 0;
+        }
+
+        .entry {
+            width: 220px;
+            float: left;
+            margin: 10px;
+            height: 198px;
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .bottom-entry {
+            display: inline-block;
+            margin: 40px 20px; /* Increased margin to create separation */
+            text-align: center;
+        }
+
+        figure {
+            display: block;
+            width: 202px;
+            height: 170px;
+            background-color: #e7e3d8;
+            padding: 9px;
+            text-align: left;
+            margin: 0 auto 20px; /* Add space between figure and button */
+        }
+
+        figure img {
+            width: 200px;
+            height: 150px;
+            border: 1px solid #d6d6d6;
+        }
+
+        figcaption {
+            background-image: url("images/icon.png");
+            padding-left: 20px;
+            background-repeat: no-repeat;
+        }
+
+     button {
+    	    background-color: red; /* Red background for buttons */
+            color: white; /* White text for button */
+            border: none; /* Remove border */
+            padding: 10px 20px; /* Add padding */
+            font-size: 16px; /* Set font size */
+            cursor: pointer; /* Change cursor to pointer */
+            border-radius: 5px; /* Add rounded corners */
+            display: block; /* Make the button a block element */
+            margin: 0 auto; /* Center the button */
+            text-align: center; /* Center text inside the button */
+	}
+
+	button a {
+		display: inline-block; /* Ensure alignment for link text */
+    		color: white; /* White text for links inside button */
+    		text-decoration: none; /* Remove underline */
+		}
+
+	button:hover {
+   		background-color: darkred; /* Darker red background on hover */
+    		transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+		}
+
+	button a:hover {
+        color: lightgray; /* Optional hover effect for the link inside */
+    			}
+    </style>
+
+

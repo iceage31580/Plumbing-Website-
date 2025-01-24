@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schedule</title>
+    <style>
+        /* Style for the red box with white bolded number */
+        .number-box {
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            width: 300px; /* Set a standard width */
+            border-radius: 5px;
+            margin: 0 auto 20px auto; /* Center the box and add spacing below */
+        }
+
+        /* Center the form on the page */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input {
+            margin: 5px 0;
+            padding: 10px;
+            width: 200px;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Red box with phone number -->
+    <div class="number-box">Call Now! (818) 462-4978</div>
+   
+    <!-- Form -->
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+        <label>Phone</label>
+        <input type="text" placeholder="Enter your phone number" required>
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+        <label>Street Address</label>
+        <input type="text" placeholder="Enter your address" required>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- Navigation Link -->
+    <a href="index.html">Home</a>
+</body>
+</html>
